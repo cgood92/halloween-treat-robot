@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.App {
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button.big {
+    width: 100%;
+    height: 100%;
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 148px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+code, h2 {
+    font-size: 32px;
+}
+
+code.user, h2.user {
+    color: slateblue;
+    font-style: italic;
+}
